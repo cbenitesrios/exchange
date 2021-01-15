@@ -15,7 +15,7 @@ public class ExchangeConversionRequest {
   @Positive(message = "El monto debe de ser mayor a 0")
   private Double amount;
 
-  @NotNull(message = "First name cannot be missing or empty")
+  @NotNull(message = "La moneda de origen no debe estar vacía.")
   @Size(min = 3, max = 3, message = "La moneda de origen debe ser de 3 letras.")
   @Pattern(regexp = "[A-Z]+", message = "El campo debe tener letras en mayúscula")
   private String originMoney;

@@ -1,6 +1,6 @@
 package com.pe.bcp.exchange;
 
-import com.pe.bcp.exchange.impl.ExchangeServiceImpl;
+import com.pe.bcp.exchange.business.impl.ExchangeServiceImpl;
 import com.pe.bcp.exchange.model.ExchangeConversionRequest;
 import com.pe.bcp.exchange.model.ExchangeConversionResponse;
 import com.pe.bcp.exchange.model.ExchangeUpdateRequest;

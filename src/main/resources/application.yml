@@ -4,3 +4,9 @@ spring:
 server:
   error:
     include-message: always
+
+jwt:
+  expiration: 600
+
+user: 'qwerty'
+pass: 'qwerty'
